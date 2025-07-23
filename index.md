@@ -17,9 +17,12 @@ This site showcases my blog articles and software projects. Stay tuned for updat
 <p><a href="/blog">Read all posts →</a></p>
 
 ## 💻 Featured Projects
-
 <ul>
-  <li><a href="https://github.com/realjariolehtonen/project1">Project 1</a> – Short description of Project 1.</li>
-  <li><a href="https://github.com/realjariolehtonen/project2">Project 2</a> – Short description of Project 2.</li>
+  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted_projects limit:3 %}
+    <li>
+      <a href="{{ project.url }}">{{ project.title }}</a> – {{ project.description }}
+    </li>
+  {% endfor %}
 </ul>
 <p><a href="/projects">See all projects →</a></p>

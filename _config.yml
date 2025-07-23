@@ -3,3 +3,21 @@ description: Blog and project portfolio
 baseurl: ""
 url: "https://realjariolehtonen.github.io"
 theme: minima
+
+# Enable the _projects collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Include folders so Jekyll processes them
+include:
+  - _projects
+
+# Optional: Customize defaults if needed
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: default
