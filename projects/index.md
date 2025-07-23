@@ -4,11 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
-Here you can list all your GitHub projects with descriptions.
-
+## 💻 Featured Projects
 <ul>
-  <li><a href="https://github.com/realjariolehtonen/project1">Project 1</a>: Explain what it does and why it's interesting.</li>
-  <li><a href="https://github.com/realjariolehtonen/project2">Project 2</a>: A few lines about this project too.</li>
+  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted_projects limit:3 %}
+    <li>
+      <a href="{{ project.url }}">{{ project.title }}</a> – {{ project.description }}
+    </li>
+  {% endfor %}
 </ul>
+<p><a href="/projects">See all projects →</a></p>
