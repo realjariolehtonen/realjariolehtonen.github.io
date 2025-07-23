@@ -25,4 +25,3 @@ This site showcases my blog articles and software projects. Stay tuned for updat
     </li>
   {% endfor %}
 </ul>
-<p><a href="/projects">See all projects →</a></p>
