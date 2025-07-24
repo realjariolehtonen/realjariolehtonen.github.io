@@ -11,7 +11,10 @@ This site showcases my blog articles and software projects. Stay tuned for updat
 
 <ul>
   {% for post in site.posts limit:3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> – {{ post.date | date: "%B %d, %Y" }}<br/>
+      <small>{{ post.description }}</small>
+    </li>
   {% endfor %}
 </ul>
 <p><a href="/blog">Read all posts →</a></p>
