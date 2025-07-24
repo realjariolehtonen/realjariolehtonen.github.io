@@ -1,5 +1,5 @@
 ---
-layout: bare
+layout: clean
 title: Home
 ---
 
