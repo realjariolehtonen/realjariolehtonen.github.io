@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Outreach Demos</title>
+  </head>
+  <body>
+    <h1>Customer Outreach Demos</h1>
+    <p><strong>Project summary:</strong> This project uses AI agents and search tools to assist with customer outreach. Based on <em>deeplearning.ai</em> content.</p>
+
+    <h2>Notebook Demo</h2>
+    <p>
+      <a href="/CrewAiDemos/CustomerOutreach/Sprint001/Customer_emailing.html">
+        👉 View the Jupyter Notebook
+      </a>
+    </p>
+
+    <h2>Other Project Files</h2>
+    <ul>
+      <li><a href="/CrewAiDemos/CustomerOutreach/Sprint001/utils.py">utils.py</a></li>
+      <li><a href="/CrewAiDemos/CustomerOutreach/Sprint001/Customer_emailing.ipynb">Customer_emailing.ipynb</a></li>
+      <li><a href="/CrewAiDemos/CustomerOutreach/Sprint001/requirements.txt">requirements.txt</a></li>
+      <li><a href="/CrewAiDemos/CustomerOutreach/Sprint001/instructions/enterprise_solutions_framework.markdown">enterprise_solutions_framework.markdown</a></li>
+      <li><a href="/CrewAiDemos/CustomerOutreach/Sprint001/instructions/small_business_engagement.markdown">small_business_engagement.markdown</a></li>
+      <li><a href="/CrewAiDemos/CustomerOutreach/Sprint001/instructions/tech_startups_outreach.markdown">tech_startups_outreach.markdown</a></li>
+    </ul>
+  </body>
+</html>
+<!DOCTYPE html>
