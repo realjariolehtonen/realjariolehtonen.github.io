@@ -22,13 +22,7 @@ This project provides an improved simulation notebook for predictive maintenance
 
 ---
 
-## Embedded Preview
+## Verify the Files Are There
 
-<iframe
-  src="{{ '/PreventativeMaintenance/preventative_maintenance_simulation_improved.html' | relative_url }}"
-  width="100%"
-  height="800"
-  style="border:1px solid #ddd;"
->
-  Your browser does not support iframes. You can view the notebook via the links above.
-</iframe>
+If clicking the “HTML Preview” link gives you a 404, it means the file wasn’t copied into the repo at exactly:
+
