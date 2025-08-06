@@ -1,5 +1,6 @@
 ---
-layout: page
+-layout: page
++layout: clean
 title: Blog
 permalink: /blog/
 ---

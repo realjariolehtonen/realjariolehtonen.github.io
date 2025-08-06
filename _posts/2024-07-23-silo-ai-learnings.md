@@ -1,4 +1,6 @@
 ---
+-layout: page
++layout: clean
 title: What Silo AI Taught to Aalto EE Business Students in a One-day Workshop?
 date: 2024-07-23
 description: Practical experiences on AI transformation.
