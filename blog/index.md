@@ -1,13 +1,12 @@
 ---
--layout: page
-+layout: clean
+layout: clean
 title: Blog
 permalink: /blog/
 ---
 
 # Blog
 
-Here are all the blog posts you've published:
+Here are all the published blog posts:
 
 <ul>
   {% for post in site.posts %}
