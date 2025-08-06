@@ -1,0 +1,26 @@
+---
+layout: clean
+title: Home
+---
+
+# Welcome to My Homepage
+
+This site showcases my blog articles and software projects. Stay tuned for updates!
+
+## 📝 Latest Blog Posts
+
+<ul>
+  {% for post in site.posts limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> – {{ post.date | date: "%B %d, %Y" }}<br/>
+      <small>{{ post.description }}</small>
+    </li>
+  {% endfor %}
+</ul>
+<p><a href="/blog">Read all posts →</a></p>
+
+## 💻 Featured Projects
+
+<ul>
+  <li><a href="/CrewAiDemos/CustomerOutreach/Sprint001/">Customer Outreach Demos</a> – Demo notebooks and agent scripts</li>
+</ul>
